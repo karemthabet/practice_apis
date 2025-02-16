@@ -11,7 +11,7 @@ class AppRouting {
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
             create: (context) => UserCubit(),
-            child: const HomeScreen(),
+            child:  HomeScreen(),
           ),
         );
       default:
